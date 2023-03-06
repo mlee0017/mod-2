@@ -9,13 +9,13 @@ function Form() {
 
     function handleSubmit(e) {
         e.preventDefault()
-        console.log(input)
+        
         // getInput(input)
     }
     return (
         <div>
           <form onClick={handleSubmit}>
-           <input value={input} onChange={handleChange} />
+           <input value={input} placeholder="enter item name" onChange={handleChange} />
            <button>Search</button>
           </form>
         </div>
@@ -26,3 +26,6 @@ function Form() {
 export default Form; 
 
 //form within SearchBar component
+//takes input and searches for item.name
+//
+

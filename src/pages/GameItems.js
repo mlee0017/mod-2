@@ -2,9 +2,10 @@ import SearchBar from '../components/SearchBar';
 import GameItemCard from '../components/GameItemCard';
 
 function GameItems() {
+    
 
     return(
-        <div className="objects">
+        <div className="gameItem">
             <SearchBar /> 
 
             <GameItemCard /> 

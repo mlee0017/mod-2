@@ -3,7 +3,9 @@ export async function getAllGameItems() {
     let response = await fetch(url) 
     let data = await response.json()
     return data 
-    console.log(data)
+    
   
 }
+
+
 
