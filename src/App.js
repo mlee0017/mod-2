@@ -3,17 +3,9 @@ import { Route, Routes } from 'react-router-dom'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import About from './pages/About'
-import Objects from './pages/Objects'
+import GameItems from './pages/GameItems'
 
 function App() {
-  // let url = ""
-  // fetch(url)
-  // .then((response) => response.json())
-  // .then((data) => {
-  //   console.log(data)
-  // })
-
-
   return (
     <div className="App">
       <Nav />
@@ -21,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/objects" element={<Objects />} /> 
+        <Route path="/gameitems" element={<GameItems />} /> 
       </Routes>
    
     </div>

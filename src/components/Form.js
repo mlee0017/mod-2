@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Form({getObject}) {
+function Form() {
     let [input, setInput] = useState('')
 
     function handleChange(e) {
@@ -9,12 +9,12 @@ function Form({getObject}) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        // console.log(input)
-        getObject(input)
+        console.log(input)
+        // getInput(input)
     }
     return (
         <div>
-          <form onSubmit={handleSubmit}>
+          <form onClick={handleSubmit}>
            <input value={input} onChange={handleChange} />
            <button>Search</button>
           </form>
@@ -24,3 +24,5 @@ function Form({getObject}) {
 }
 
 export default Form; 
+
+//form within SearchBar component
