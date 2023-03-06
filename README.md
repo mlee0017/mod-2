@@ -1,5 +1,18 @@
 <<<<<<< HEAD
 # mod-2
+
+The Hyrule Compendium 
+
+This app was inspired by the Nintendo game, Breath of the Wild. Utilizing a public api, I created a react app that would display the individual objects in the game listed in the api. I say objects because the api has categories of monsters, creatures, equipment, materials, and weapons. In the game, the Sheikah Slate is used to take pictures of these objects and helps in searching for them. So since I'm still working on getting hired at Nintendo I just added a searchbar component to the objects page so you can search through to find the object. 
+
+Challenges: 
+I'll try to keep this section short but it's a lot to unpack. The technical difficulties alone took up most of my time, most of the week I couldn't view the browser after running npm start. Not sure what the issue was with localhost:3000 so I had no idea what I was coding until Thursday and had to start the project on Code Sandbox. I had to update my computer after freeing up 20 GB of storage I'm still a bit in disbelief the amount of time that took. I also thought I had to redownload git because after the update there was an error message I couldn't understand but shoutout to expert googling skills and this link (https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-update-xcrun-error-invalid-active-developer-pa) for fixing one of my many issues. And this link (https://www.educative.io/answers/the-fatal-refusing-to-merge-unrelated-histories-git-error) for helping me merge the branches because I set that up wrong also.  Aside from the technical and personal obstacles I faced/am facing, this project was fun to create and I look forward to adding more styling to this. This project was created with my tears! Also shoutout to scrimba and my cohort + Hai's office hours for schooling me. And lastly for my computer for not completely giving up on me!
+
+Table of Contents: 
+Home page - welcome page displaying Hestu dancing 
+About page - shows information about the app and its function (also a gif of my mentality during this bootcamp smiling through the pain) 
+Objects page - where all the magic happens displaying the objects and the search bar to individually display each object, upon clicking an object it will show the name, description, location, and image 
+
 =======
 # Getting Started with Create React App
 
