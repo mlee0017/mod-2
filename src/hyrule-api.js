@@ -7,5 +7,13 @@ export async function getAllGameItems() {
   
 }
 
+export async function getAllItemNames(name) {
+    let url = `https://botw-compendium.herokuapp.com/api/v2/entry/${name}/image`
+    let response = await fetch(url) 
+    let data = await response.json()
+    return data 
+
+}
+
 
 

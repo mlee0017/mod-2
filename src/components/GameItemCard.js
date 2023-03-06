@@ -1,42 +1,16 @@
-import { getAllGameItems } from "../hyrule-api";
-import React, { useEffect, useState } from 'react'
-
 function GameItemCard() {
-    let [gameItem, setGameItem] = useState([])
-    // let [image, setImage] = useState('')
-
-    useEffect(() => {
-        async function gameItemData() {
-            const data = await getAllGameItems()
-            console.log(data)
-            
-            setGameItem(data)
-            
-
-        } 
-        gameItemData()
-        
-    }, [])
-
-    console.log(gameItem)
 
     return (
         <div className="item-container">
             <p> data is fetched </p>
-            {/* {gameItem.map((item, id) => (
-              <div key={id}>
-                 <h1>name: {item.id.name}</h1> 
-                 <h1>image: {item.id.image} </h1>
+              {/* <div className="item">
+                 <h1>name: {item.name}</h1> 
+                 <h1>image: {item.image} </h1>
                  <h1>category: {item.category} </h1> 
-                 <h1>description: {item.id.description} </h1> 
-                 <h1>common locations: {item.id.common_locations} </h1> 
-                 <h1>drops: {item.id.drops} </h1>
-
-              </div> 
-              ) 
-              )
-            } */}
-    
+                 <h1>description: {item.description} </h1> 
+                 <h1>common locations: {item.common_locations} </h1> 
+                 <h1>drops: {item.drops} </h1>
+              </div>  */}
         </div>
             
     )
